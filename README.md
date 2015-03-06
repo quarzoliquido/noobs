@@ -32,17 +32,17 @@ Para configurar mediante NOOBS una tarjeta SD en blanco card necesita realizar l
 - Primero, tiene que dar formato a una tarjeta SD de capacidad igual o superior a 4GB en el sistema de ficheros FAT (vea las instrucciones para realizar esto abajo)
 - Segundo, tiene que descargar y extraer los archivos desde el archivo comprimido "zip" de NOOBS.
 - Tercero, tiene que copiar los archivos extraidos en la tarjeta SD que ud. acaba de formatear, por ende, esos archivos estaran disponibles en el directorio root de la tarjeta SD.
-<b> Please note that en algunos casos es posible extraer los archivos en una carpeta, si este es el caso por favor haga una copia entre los archivos habiendo entrado previamente dentro de la carpeta en vez de copiar la carpeta en si.</b>
+<b> En algunos casos es posible extraer los archivos en una carpeta, si este es el caso por favor haga una copia entre los archivos habiendo entrado previamente dentro de la carpeta en vez de copiar la carpeta en si.</b>
 
 Al hacer boot por primera vez la particion con el sistema de ficheros FAT de tipo "RECOVERY" sera cambiada al menor tamano posible y el menu mostrara una lista de sistemas operativos par instalar.
 
 ### How to Format an SD card as FAT
 
-For <b>Windows</b> users, we recommend formatting your SD card using the SD Association's Formatting Tool, which can be downloaded from https://www.sdcard.org/downloads/formatter_4/ You will need to set "FORMAT SIZE ADJUSTMENT" option to "ON" in the "Options" menu to ensure that the entire SD card volume is formatted - not just a single partition. For more detailed and beginner-friendly formatting instructions, please refer to http://www.raspberrypi.org/quick-start-guide
+Nosotros recomendamos a los usuarios de <b>Windows</b> formatear su tarjeta SD usando la SD Association's Formatting Tool, la cual esta lista para ser descargada en https://www.sdcard.org/downloads/formatter_4/ ud. necesitara configurar la opcion "FORMAT SIZE ADJUSTMENT" en "ON" dentro del menu "Options" para asegurar que se de formateo a la  tarjeta SD completa, en vez de una particion individual. Si desea mayor informacion e instrucciones para principiantes, abra la siguiente pagina http://www.raspberrypi.org/quick-start-guide
 
-The SD Association's Formatting Tool is also available for <b>Mac</b> users although the default OSX Disk Utility is also capable of formatting the entire disk (select the SD card volume and choose "Erase" with "MS-DOS" format).
+La herramienta "SD Association's Formatting Tool" tambien se encuentra disponible para los usuarios <b>Mac</b> ,si bien, la herramienta por omision llamada "OSX Disk Utility" tambien permite formatear el disco por completo, para lo cual solo requiere de elegir el volumen de la tarjeta SD card y seleccionar "Erase" con formato "MS-DOS").
 
-For <b>Linux</b> users we recommend `gparted` (or the command line version `parted`). (Update: Norman Dunbar has written up the following formatting instructions for Linux users: http://qdosmsq.dunbar-it.co.uk/blog/2013/06/noobs-for-raspberry-pi/ )
+Para usuarios <b>Linux</b> nosotros aconsejamos dar formato mediante `gparted` o a traves de la herramienta en linea de comandos conocida como `parted`). (Update: Norman Dunbar ha escrito el siguiente instructivo para dar formato siendo usuario de Linux: http://qdosmsq.dunbar-it.co.uk/blog/2013/06/noobs-for-raspberry-pi/ )
 
 ===
 
