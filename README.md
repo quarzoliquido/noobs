@@ -14,7 +14,7 @@ NOOBS en el primet boot procedera a formatear su tarjeta SD, dejandole que elija
 
 Para que ud. tenga la version mas reciente de su sistema operativo el menu solamente muestra las ultimas actualizaciones de cada sistema operativo.
 
-On any subsequent boot you can then press the SHIFT key to enter the NOOBS interface and easily reinstall your choice of OSes.
+Para los siguientes boot es posible reemplazar facilmente su sistema operativo presionando la tecla SHIFT, la cual muestra la interfaz NOOBS y permite reinstalar comodamente su proximo sistema operativo.
 
 The NOOBS interface provides the following functionality:
 - <b>Install</b>: Installs the selected OSes onto your SD card. Changing this selection erases all OSes currently installed.
