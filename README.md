@@ -21,7 +21,7 @@ La interfaz NOOBS interface entrega los siguientes servicios:
 - <b>Edit Config</b>: Esta opcion abre un editor de texto para cambiar la cmdline y configurar asi el sistema operativo instalado.
 - <b>Online Help</b>: [Si ud selecciona esta opcion necesita internet] Al elegir esta alternativa ud. abre un navegador que muestra el foro Raspberry Pi Forum ( http://www.raspberrypi.org/phpBB3/ ), el cual tiene informacion de ayuda y de utilidad para resolver problemas de facil acceso.
 - <b>Exit</b>: Esta es la salida de NOOBS y deja a su Raspberry Pi en el menu boot.
-- <b>Language Selection</b>: Allows you to select the language to be displayed.
+- <b>Language Selection</b>: Desde esta opcion puede cambiar el lenguaje en el que lee NOOBS.
 - <b>Keyboard Layout Selection</b>: Allows you to select the keyboard layout to be used.
 - <b>Display Mode Selection</b>: By default, NOOBS will output over HDMI at your display's preferred resolution, even if no HDMI display is connected. If you do not see any output on your HDMI display or are using the composite output, press 1, 2, 3 or 4 on your keyboard to select HDMI preferred mode, HDMI safe mode, composite PAL mode or composite NTSC mode respectively.
 
