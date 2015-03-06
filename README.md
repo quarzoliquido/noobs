@@ -25,13 +25,13 @@ La interfaz NOOBS interface entrega los siguientes servicios:
 - <b>Keyboard Layout Selection</b>: Aca puede elegir la distribucion del teclado a usar.
 - <b>Display Mode Selection</b>: NOOBS tiene por omision salida al puerto de video HDMI en la resolucion que su monitor tenga seleccionada, incluso si no hay pantalla HDMI. If you do not see any output on your HDMI display or are using the composite output, press 1, 2, 3 or 4 on your keyboard to select HDMI preferred mode, HDMI safe mode, composite PAL mode or composite NTSC mode respectively.
 
-Note that all user settings (language, keyboard layout, display mode) will persist between reboots and will also be automatically passed to the installed OSes. This means that if you can see the NOOBS interface on your display device then you should be able to see the OS CLI/GUI when it boots too!
+Por favor, note que todas las configuraciones de usuario (language, keyboard layout, display mode) seran mantenidas entre un boot y otro e igualmente seran llevadas a los sistemas operativos existentes. Esto implica que si ud puede ver la interfaz NOOBS en su monitor, entonces podra igualmente ver la linea de comandos o la interfaz grafica de usuario de su sistema operativo. 
 ### Setup
 
-To setup a blank SD card with NOOBS:
-- Format an SD card that is 4GB or greater in size as FAT (see instructions on how to do this below)
-- Download and extract the files from the NOOBS zip file.
-- Copy the extracted files onto the SD card that you just formatted so that this file is at the root directory of the SD card.
+Para configurar mediante NOOBS una tarjeta SD en blanco card necesita realizar las siguientes acciones:
+- Primero, tiene que dar formato a una tarjeta SD de capacidad igual o superior a 4GB en el sistema de ficheros FAT (vea las instrucciones para realizar esto abajo)
+- Segundo, tiene que descargar y extraer los archivos desde el archivo comprimido "zip" de NOOBS.
+- Tercero, tiene que copiar los archivos extraidos en la tarjeta SD que ud. acaba de formatear, por ende, esos archivos estaran disponibles en el directorio root de la tarjeta SD.
 <b> Please note that in some cases it may extract the files into a folder, if this is the case then please copy across the files from inside the folder rather than the folder itself.</b>
 
 On first boot the "RECOVERY" FAT partition will be automatically resized to a minimum and a list of OSes that are available to install will be displayed.
