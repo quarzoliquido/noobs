@@ -18,7 +18,7 @@ Para los siguientes boot es posible reemplazar facilmente su sistema operativo p
 
 La interfaz NOOBS interface entrega los siguientes servicios:
 - <b>Install</b>: Ofrece instalar los sistemas operativos de la lista en su tarjeta SD. Si ud. cambia esta opcion elimina todo sistema operativo instalado previamente.
-- <b>Edit Config</b>: Opens a text editor allowing the cmdline and config for the selected installed OS to be edited.
+- <b>Edit Config</b>: Esta opcion abre un editor de texto para cambiar la cmdline y configurar asi el sistema operativo instalado.
 - <b>Online Help</b>: [Networking Required] Open a browser that displays the Raspberry Pi Forum ( http://www.raspberrypi.org/phpBB3/ ), allowing people to quickly access help and troubleshooting.
 - <b>Exit</b>: Quits NOOBS and reboots the Pi into the OS boot menu.
 - <b>Language Selection</b>: Allows you to select the language to be displayed.
