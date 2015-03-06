@@ -64,19 +64,19 @@ The built-in Arora web browser allows you to easily get help via the Raspberry P
 
 Existe un editor de archivos de configuracion instalado por omision que hace posible cambiar los datos en el archivo correspondiente en el sistema operativo resaltado en la lista del menu. Con este editor ud. puede agregar "license keys" a distintos sistemas operativos instalados a traves de la misma interfaz.
 
-Note that the output mode selected by the user through pressing one of number keys 1 to 4 (for HDMI preferred, HDMI VGA, Composite PAL and Composite NTSC respectively), will be automatically set in the `config.txt` files of your installed OSes. This means that you shouldn't have to worry about manually changing your display settings to get your installed OS to display correctly on your display device.
+Note que el modo de salida de video elegido por el usuario al presionar las teclas numericas del 1 al 4 , los cuales correspoden a HDMId, HDMI VGA, Composite PAL y Composite NTSC, el cual sera configurado automaticamente en el archivo de texto plano `config.txt` de sus sistemas operativos instalados, por lo anterior no necesitara preocuparse por cambios a mano de las configuraciones de su monitor.
 
-![alt text](http://downloads.raspberrypi.org/NOOBS/screenshots/config_editor.png "Easily edit the config files of any installed OS")
+![alt text](http://downloads.raspberrypi.org/NOOBS/screenshots/config_editor.png "Sencilla configuracion de cualquier sistema operativo instalado")
 
 #### Installer Slideshow
 
-An installer slideshow guides you through your first steps with each OS while it installs.
+Ud. podra entender los primeros pasos de la instalacion viendo las diapositivas a continuacion.
 
-![alt text](http://downloads.raspberrypi.org/NOOBS/screenshots/installer_slides.png "An installer slideshow guides you through your first steps with each OS")
+![alt text](http://downloads.raspberrypi.org/NOOBS/screenshots/installer_slides.png "Ud. podra entender los primeros pasos de la instalacion viendo las diapositivas a continuacion.")
 
 #### OS Boot Selector
 
-After multiple OSes have been installed, you can select which OS to boot through this selection window that is automatically displayed. NOOBS will remember your choice and boot this OS by default unless a different option has been selected within 10 seconds.
+Despues de que haya instalado varios sistemas operativos, puede elegir con cual hacer boot por medio de este menu. En NOOBS es posible mantener la seleccion de sistema operativo realizada por ud. automaticamente esperando hasta un maximo de 10 segundos.
 
 Note that if only one OS is installed then the boot selector will not be displayed and the OS will be automatically booted.
 
