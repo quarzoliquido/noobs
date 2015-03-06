@@ -58,7 +58,7 @@ Elija la "checkbox" al lado del sistema operativo que desea instalar usando un m
 
 The built-in Arora web browser allows you to easily get help via the Raspberry Pi Forums (wired network connection required).
 
-![alt text](http://downloads.raspberrypi.org/NOOBS/screenshots/browser.png "Search the Raspberry Pi forums for help via the built-in web browser")
+![alt text](http://downloads.raspberrypi.org/NOOBS/screenshots/browser.png "Ud. puede realizar una busqueda para recibir ayuda en los foros Raspberry Pi forums usando el navegador que ya se encuentra incluido")
 
 #### Easy Config File Editor
 
