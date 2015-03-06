@@ -19,11 +19,11 @@ Para los siguientes boot es posible reemplazar facilmente su sistema operativo p
 La interfaz NOOBS interface entrega los siguientes servicios:
 - <b>Install</b>: Ofrece instalar los sistemas operativos de la lista en su tarjeta SD. Si ud. cambia esta opcion elimina todo sistema operativo instalado previamente.
 - <b>Edit Config</b>: Esta opcion abre un editor de texto para cambiar la cmdline y configurar asi el sistema operativo instalado.
-- <b>Online Help</b>: [Si ud selecciona esta opcion necesita internet] Al elegir esta alternativa ud. abre un navegador que muestra el foro Raspberry Pi Forum ( http://www.raspberrypi.org/phpBB3/ ), el cual tiene informacion de ayuda y de utilidad para resolver problemas de facil acceso.
+- <b>Online Help</b>: [Si ud selecciona esta opcion necesita acceso a internet] Al elegir esta alternativa ud. abre un navegador que muestra el foro Raspberry Pi Forum ( http://www.raspberrypi.org/phpBB3/ ), el cual tiene informacion de ayuda y de utilidad para resolver problemas de facil acceso.
 - <b>Exit</b>: Esta es la salida de NOOBS y deja a su Raspberry Pi en el menu boot.
 - <b>Language Selection</b>: Desde esta opcion puede cambiar el lenguaje en el que lee NOOBS.
 - <b>Keyboard Layout Selection</b>: Aca puede elegir la distribucion del teclado a usar.
-- <b>Display Mode Selection</b>: By default, NOOBS will output over HDMI at your display's preferred resolution, even if no HDMI display is connected. If you do not see any output on your HDMI display or are using the composite output, press 1, 2, 3 or 4 on your keyboard to select HDMI preferred mode, HDMI safe mode, composite PAL mode or composite NTSC mode respectively.
+- <b>Display Mode Selection</b>: NOOBS tiene por omision salida al puerto de video HDMI en la resolucion que su monitor tenga seleccionada, incluso si no hay pantalla HDMI. If you do not see any output on your HDMI display or are using the composite output, press 1, 2, 3 or 4 on your keyboard to select HDMI preferred mode, HDMI safe mode, composite PAL mode or composite NTSC mode respectively.
 
 Note that all user settings (language, keyboard layout, display mode) will persist between reboots and will also be automatically passed to the installed OSes. This means that if you can see the NOOBS interface on your display device then you should be able to see the OS CLI/GUI when it boots too!
 ### Setup
