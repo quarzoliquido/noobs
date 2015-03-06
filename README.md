@@ -12,7 +12,7 @@ Si desea informacion de versiones anteriores y listas de modificaciones a las mi
 ### About
 NOOBS en el primet boot procedera a formatear su tarjeta SD, dejandole que elija cuales sistemas operativos instalara, en una lista con todas las opciones. Esta lista de sistemas operativos se genera automaticamente tanto de sistemas operativos disponibles localmente (i.e. los cuales esten dentro del directoro `/os` en su disco) como de aquellos disponibles desde nuestro repositorio remoto, lo cual exige una colección a internet cableada
 
-Only the latest version of each OS will ever be displayed meaning that you can be sure that you have installed the most up-to-date release of your selected OS.
+Para que ud. tenga la version mas reciente de su sistema operativo el menu solamente muestra las ultimas actualizaciones de cada sistema operativo.
 
 On any subsequent boot you can then press the SHIFT key to enter the NOOBS interface and easily reinstall your choice of OSes.
 
