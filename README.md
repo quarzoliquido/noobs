@@ -32,7 +32,7 @@ Para configurar mediante NOOBS una tarjeta SD en blanco card necesita realizar l
 - Primero, tiene que dar formato a una tarjeta SD de capacidad igual o superior a 4GB en el sistema de ficheros FAT (vea las instrucciones para realizar esto abajo)
 - Segundo, tiene que descargar y extraer los archivos desde el archivo comprimido "zip" de NOOBS.
 - Tercero, tiene que copiar los archivos extraidos en la tarjeta SD que ud. acaba de formatear, por ende, esos archivos estaran disponibles en el directorio root de la tarjeta SD.
-<b> Please note that in some cases it may extract the files into a folder, if this is the case then please copy across the files from inside the folder rather than the folder itself.</b>
+<b> Please note that en algunos casos es posible extraer los archivos en una carpeta, si este es el caso por favor haga una copia entre los archivos habiendo entrado previamente dentro de la carpeta en vez de copiar la carpeta en si.</b>
 
 On first boot the "RECOVERY" FAT partition will be automatically resized to a minimum and a list of OSes that are available to install will be displayed.
 
