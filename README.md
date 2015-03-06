@@ -60,7 +60,7 @@ The built-in Arora web browser allows you to easily get help via the Raspberry P
 
 ![alt text](http://downloads.raspberrypi.org/NOOBS/screenshots/browser.png "Ud. puede realizar una busqueda para recibir ayuda en los foros Raspberry Pi forums usando el navegador que ya se encuentra incluido")
 
-#### Easy Config File Editor
+#### Editor de archivo de configuracion 
 
 Existe un editor de archivos de configuracion instalado por omision que hace posible cambiar los datos en el archivo correspondiente en el sistema operativo resaltado en la lista del menu. Con este editor ud. puede agregar "license keys" a distintos sistemas operativos instalados a traves de la misma interfaz.
 
@@ -68,7 +68,7 @@ Note que el modo de salida de video elegido por el usuario al presionar las tecl
 
 ![alt text](http://downloads.raspberrypi.org/NOOBS/screenshots/config_editor.png "Sencilla configuracion de cualquier sistema operativo instalado")
 
-#### Installer Slideshow
+#### Diapositivas de la instalacion 
 
 Ud. podra entender los primeros pasos de la instalacion viendo las diapositivas a continuacion.
 
