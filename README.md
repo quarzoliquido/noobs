@@ -50,7 +50,7 @@ Para usuarios <b>Linux</b> nosotros aconsejamos dar formato mediante `gparted` o
 
 #### OS Installation
 
-Simply select the checkbox next to each OS you want to install using either a mouse or keyboard (arrow keys to traverse the list, enter to toggle the selected OS's checkbox), then click the "Install" icon (or press "i" on your keyboard) to install the selection. The icons shown on the right of the list indicate whether the OS is being installed from the SD card (SD card icon) or from the online OS repository (Ethernet icon).
+Elija la "checkbox" al lado del sistema operativo que desea instalar usando un mouse o teclado. Si usa teclado, presiones las teclas de flecha para cambiar entre sistemas operativos, luego cliquee el icono "Install" (o presione "i" en su teclado) para instalar el sistema operativo. Los iconos mostrados a la derecha de la lista los cuales indican el sistema operativo a instalar desde la tarjeta SD (con el icono SD correspondiente) o desde el repositorio en internet (vea el icono Ethernet correspondiente).
 
 ![alt text](http://downloads.raspberrypi.org/NOOBS/screenshots/os_selected.png "Select your choice of OSes to install")
 
