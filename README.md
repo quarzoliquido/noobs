@@ -78,17 +78,17 @@ Ud. podra entender los primeros pasos de la instalacion viendo las diapositivas 
 
 Despues de que haya instalado varios sistemas operativos, puede elegir con cual hacer boot por medio de este menu. En NOOBS es posible mantener la seleccion de sistema operativo realizada por ud. automaticamente esperando hasta un maximo de 10 segundos.
 
-Note that if only one OS is installed then the boot selector will not be displayed and the OS will be automatically booted.
+Si hay solo un sistema operativo installado no se mostrara el selector de boot y el sistema operativo sera iniciado automaticamente.
 
-![alt text](http://downloads.raspberrypi.org/NOOBS/screenshots/boot_select.png "Easily select which OS you want to boot from a list of those currently installed")
+![alt text](http://downloads.raspberrypi.org/NOOBS/screenshots/boot_select.png "Elija facilmente cual sistema operativo desea dar inicio entre una lista de los que ha instalado previamente")
 
 ==
 
-## Advanced Usage (for experts and teachers)
+## Uso para expertos y pedagogos
 
 ### How to Automatically Install an OS
 
-Even if you are using your Pi without a display, you can still use NOOBS to easily install an OS of your choice. To set up NOOBS to automatically and silently (i.e. without requiring any user input) install a specific OS, follow these steps:
+Si ud. esta utilizando su Raspberry Pi sin un monitor puede instalar suun sistema operativo en particular facilmente, mediante NOOBS Even if you are using your Pi without a display, you can still use NOOBS to easily install an OS of your choice. To set up NOOBS to automatically and silently (i.e. without requiring any user input) install a specific OS, follow these steps:
 
 1. Copy the OS folder for the OS you want to install into the `/os` dir (or alternatively delete all other OSes contained in the `/os` dir so that only your chosen OS remains.
 
