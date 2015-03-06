@@ -36,7 +36,7 @@ Para configurar mediante NOOBS una tarjeta SD en blanco card necesita realizar l
 
 Al hacer boot por primera vez la particion con el sistema de ficheros FAT de tipo "RECOVERY" sera cambiada al menor tamano posible y el menu mostrara una lista de sistemas operativos par instalar.
 
-### How to Format an SD card as FAT
+### Como darle formato con sistema de ficheros FAT a una tarjeta SD
 
 Nosotros recomendamos a los usuarios de <b>Windows</b> formatear su tarjeta SD usando la SD Association's Formatting Tool, la cual esta lista para ser descargada en https://www.sdcard.org/downloads/formatter_4/ ud. necesitara configurar la opcion "FORMAT SIZE ADJUSTMENT" en "ON" dentro del menu "Options" para asegurar que se de formateo a la  tarjeta SD completa, en vez de una particion individual. Si desea mayor informacion e instrucciones para principiantes, abra la siguiente pagina http://www.raspberrypi.org/quick-start-guide
 
@@ -62,7 +62,7 @@ The built-in Arora web browser allows you to easily get help via the Raspberry P
 
 #### Easy Config File Editor
 
-The built-in config file editor allows you to edit the config file of the OS currently highlighted in the OS list. This allows you to easily add license keys to different OS installs through the same interface.
+Existe un editor de archivos de configuracion instalado por omision que hace posible cambiar los datos en el archivo correspondiente en el sistema operativo resaltado en la lista del menu. Con este editor ud. puede agregar "license keys" a distintos sistemas operativos instalados a traves de la misma interfaz.
 
 Note that the output mode selected by the user through pressing one of number keys 1 to 4 (for HDMI preferred, HDMI VGA, Composite PAL and Composite NTSC respectively), will be automatically set in the `config.txt` files of your installed OSes. This means that you shouldn't have to worry about manually changing your display settings to get your installed OS to display correctly on your display device.
 
