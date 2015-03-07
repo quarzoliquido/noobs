@@ -86,9 +86,9 @@ Si hay solo un sistema operativo installado no se mostrara el selector de boot y
 
 ## Uso para expertos y pedagogos
 
-### How to Automatically Install an OS
+### Como instalar de manera automatizada un sistema operativo
 
-Si ud. esta utilizando su Raspberry Pi sin un monitor puede instalar suun sistema operativo en particular facilmente, mediante NOOBS Even if you are using your Pi without a display, you can still use NOOBS to easily install an OS of your choice. To set up NOOBS to automatically and silently (i.e. without requiring any user input) install a specific OS, follow these steps:
+Si ud. esta utilizando su Raspberry Pi sin un monitor puede instalar un sistema operativo en particular facilmente, mediante NOOBS. Para la configuracion automatizada y desatendida (i.e. without requiring any user input) install a specific OS, follow these steps:
 
 1. Copy the OS folder for the OS you want to install into the `/os` dir (or alternatively delete all other OSes contained in the `/os` dir so that only your chosen OS remains.
 
