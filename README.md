@@ -103,7 +103,7 @@ Durante el  boot mediante tarjeta SD con una version modificada por ud mismo de 
 
 Hay dos situaciones puntuales en las cuales podria sentirse impulsado a crear una version personalizada de los sistemas operativos estandar que se encuentran dentro de las alternativas de NOOBS para su instalacion en una Raspberry Pi:
 - Puede que ud. sea un pedagogo que busca personalizar comodamente un sistema operativo el cual contenga un conjunto predefinido de paquetes y archivos en una cantidad determinada de tarjetas SD, por ejemplo, para entregar a un grupo de estudiantes sus correspondientes Raspberry Pi o quiza llevar rapidamente de vuelta a las configuraciones de fabrica un numero especifico de Raspberry Pi.
-- If you want to be able to back up your existing installed packages and files so that any future OS re-install does not force you back to a clean install.
+- Existe la necesidad de respaldar sus paquetes previamente instalados asi como sus archivos antiguos para que cualquier Sistema Operativo que use en un futuro no le obligue a volver a instalar, configurar y copiar tanto el sistema operativo como sus datos personales.
 
 The following steps allow you to create a modified copy of one of the standard OS releases that contains your custom files, packages and settings.
 
