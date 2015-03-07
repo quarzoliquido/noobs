@@ -96,7 +96,7 @@ Si ud. esta utilizando su Raspberry Pi sin un monitor puede instalar un sistema 
 
 3. Existe un archivo `recovery.cmdline` en el directorio root de NOOBS, editelo y agregue  `silentinstall` a la lista de  argumentos.
 
-When you now boot your Pi using an SD card containing the modified version of NOOBS that you just created, it will automatically install the OS you chose and boot into it after the installation has finished.
+Durante el  boot mediante tarjeta SD con una version modificada por ud mismo de NOOBS en su Raspberry Pi, it will automatically install the OS you chose and boot into it after the installation has finished.
 
 ### How to create a custom OS version
 
