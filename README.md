@@ -9,7 +9,7 @@ Si desea informacion de versiones anteriores y listas de modificaciones a las mi
 
 ![alt text](http://downloads.raspberrypi.org/NOOBS/screenshots/os_installed.png "Interface NOOBS")
 
-### About
+### Acerca de NOOBS 
 NOOBS en el primet boot procedera a formatear su tarjeta SD, dejandole que elija cuales sistemas operativos instalara, en una lista con todas las opciones. Esta lista de sistemas operativos se genera automaticamente tanto de sistemas operativos disponibles localmente (i.e. los cuales esten dentro del directoro `/os` en su disco) como de aquellos disponibles desde nuestro repositorio remoto, lo cual exige una colección a internet cableada
 
 Para que ud. tenga la version mas reciente de su sistema operativo el menu solamente muestra las ultimas actualizaciones de cada sistema operativo.
@@ -26,7 +26,8 @@ La interfaz NOOBS interface entrega los siguientes servicios:
 - <b>Display Mode Selection</b>: NOOBS tiene por omision salida al puerto de video HDMI en la resolucion que su monitor tenga seleccionada, incluso si no hay pantalla HDMI. If you do not see any output on your HDMI display or are using the composite output, press 1, 2, 3 or 4 on your keyboard to select HDMI preferred mode, HDMI safe mode, composite PAL mode or composite NTSC mode respectively.
 
 Por favor, note que todas las configuraciones de usuario (language, keyboard layout, display mode) seran mantenidas entre un boot y otro e igualmente seran llevadas a los sistemas operativos existentes. Esto implica que si ud puede ver la interfaz NOOBS en su monitor, entonces podra igualmente ver la linea de comandos o la interfaz grafica de usuario de su sistema operativo. 
-### Setup
+
+### Configuracion
 
 Para configurar mediante NOOBS una tarjeta SD en blanco card necesita realizar las siguientes acciones:
 - Primero, tiene que dar formato a una tarjeta SD de capacidad igual o superior a 4GB en el sistema de ficheros FAT (vea las instrucciones para realizar esto abajo)
@@ -46,13 +47,13 @@ Para usuarios <b>Linux</b> nosotros aconsejamos dar formato mediante `gparted` o
 
 ===
 
-### Screenshots
+### Capturas de pantalla
 
-#### OS Installation
+#### Instalacion del Sistema Operativo
 
 Elija la "checkbox" al lado del sistema operativo que desea instalar usando un mouse o teclado. Si usa teclado, presiones las teclas de flecha para cambiar entre sistemas operativos, luego cliquee el icono "Install" (o presione "i" en su teclado) para instalar el sistema operativo. Los iconos mostrados a la derecha de la lista los cuales indican el sistema operativo a instalar desde la tarjeta SD (con el icono SD correspondiente) o desde el repositorio en internet (vea el icono Ethernet correspondiente).
 
-![alt text](http://downloads.raspberrypi.org/NOOBS/screenshots/os_selected.png "Select your choice of OSes to install")
+![alt text](http://downloads.raspberrypi.org/NOOBS/screenshots/os_selected.png "Elija los sistemas operativos a instalar")
 
 #### Online Help via Web Browser
 
