@@ -55,9 +55,9 @@ Elija la "checkbox" al lado del sistema operativo que desea instalar usando un m
 
 ![alt text](http://downloads.raspberrypi.org/NOOBS/screenshots/os_selected.png "Elija los sistemas operativos a instalar")
 
-#### Online Help via Web Browser
+#### Encuentre ayuda en la red a traves de su navegador
 
-The built-in Arora web browser allows you to easily get help via the Raspberry Pi Forums (wired network connection required).
+El navegador de internet incluido por omision conocido como "Arora" hace mucho mas facil encontrar apoyo en los foros de Raspberry Pi Forum, esto necesita de internet por medio de conexion cableada.
 
 ![alt text](http://downloads.raspberrypi.org/NOOBS/screenshots/browser.png "Ud. puede realizar una busqueda para recibir ayuda en los foros Raspberry Pi forums usando el navegador que ya se encuentra incluido")
 
