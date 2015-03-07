@@ -1,13 +1,13 @@
 # NOOBS (New Out of Box Software)
 #### Un instalador de sistemas operativos para Raspberry Pi facil de usar
 
-NOOBS esta disenado para que el proceso de elegir un sistema operativo especifico para Raspberry Pi e instalarlo sea facil y sin hacer manualmente el procesod e gestionar imagenes de la memoria SD.
+NOOBS esta pensado para que el proceso de elegir un sistema operativo especifico para Raspberry Pi e instalarlo sea facil y sin hacer manualmente el procesod e gestionar imagenes de la memoria SD.
 
 La ultima version de NOOBS, de caracter oficial, esta disponible para su descarga desde  http://downloads.raspberrypi.org/NOOBS_latest
 
 Si desea informacion de versiones anteriores y listas de modificaciones a las mismas, sirvase entrar al siguiente enlace https://github.com/raspberrypi/noobs/releases
 
-![alt text](http://downloads.raspberrypi.org/NOOBS/screenshots/os_installed.png "NOOBS Interface")
+![alt text](http://downloads.raspberrypi.org/NOOBS/screenshots/os_installed.png "Interface NOOBS")
 
 ### About
 NOOBS en el primet boot procedera a formatear su tarjeta SD, dejandole que elija cuales sistemas operativos instalara, en una lista con todas las opciones. Esta lista de sistemas operativos se genera automaticamente tanto de sistemas operativos disponibles localmente (i.e. los cuales esten dentro del directoro `/os` en su disco) como de aquellos disponibles desde nuestro repositorio remoto, lo cual exige una colección a internet cableada
@@ -88,13 +88,13 @@ Si hay solo un sistema operativo installado no se mostrara el selector de boot y
 
 ### Como instalar de manera automatizada un sistema operativo
 
-Si ud. esta utilizando su Raspberry Pi sin un monitor puede instalar un sistema operativo en particular facilmente, mediante NOOBS. Para la configuracion automatizada y desatendida (i.e. without requiring any user input) install a specific OS, follow these steps:
+Si ud. esta utilizando su Raspberry Pi sin un monitor puede instalar un sistema operativo en particular facilmente, mediante NOOBS. Siga los pasos enumerados a continuacion para configurar de manera automatizada y sin pedir que el usuario haga input alguno para instalar un sistema operativo especifico:
 
-1. Copy the OS folder for the OS you want to install into the `/os` dir (or alternatively delete all other OSes contained in the `/os` dir so that only your chosen OS remains.
+1. Sirvase copiar la carpeta del sistema operatvo a instalar en el direcorio `/os`, o si lo prefiere, elimine todos los otros sistemas operativos que existen en el directorio `/os` para que asi solo permanezca el sistema operativo de su preferencia.
 
-2. If the OS you want to automatically install has multiple flavours available, edit the `flavours.json` file so that it only contains the flavour entry that you want to install.
+2. Si el sistema operativo que ud. desea copiar tiene multiples "sabores" o distribuciones, edite el archivo  `flavours.json` de modo tal que solo este en el fichero la entrada relacionada con el "sabor" o distribucion que ud. va a instalar.
 
-3. Edit the `recovery.cmdline` file in the root NOOBS directory and append `silentinstall` to the arguments list.
+3. Existe un archivo `recovery.cmdline` en el directorio root de NOOBS, editelo y agregue  `silentinstall` a la lista de  argumentos.
 
 When you now boot your Pi using an SD card containing the modified version of NOOBS that you just created, it will automatically install the OS you chose and boot into it after the installation has finished.
 
