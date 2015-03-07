@@ -101,7 +101,7 @@ Durante el  boot mediante tarjeta SD con una version modificada por ud mismo de 
 
 ### Instrucciones para personalizar la version de su Sistema Operativo en Raspberry Pi
 
-There are two main use cases for which you may want to create a custom version of one of the standard OS releases that is suitable for installation via NOOBS:
+Hay dos situaciones puntuales en las cuales podria sentirse impulsado a crear una version personalizada de los sistemas operativos estandar que se encuentran dentro de las alternativas de NOOBS para su instalacion en una Raspberry Pi:
 - If you are a teacher wanting to easily deploy a custom OS release containing pre-defined set of packages and files onto a number of SD cards (e.g. to provision a class set of Raspberry Pi's or quickly restore a Raspberry Pi back to custom "factory" settings).
 - If you want to be able to back up your existing installed packages and files so that any future OS re-install does not force you back to a clean install.
 
