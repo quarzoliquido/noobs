@@ -99,7 +99,7 @@ Si ud. esta utilizando su Raspberry Pi sin un monitor puede instalar un sistema 
 
 Durante el  boot mediante tarjeta SD con una version modificada por ud mismo de NOOBS en su Raspberry Pi, la cual instalara de manera automatizada el sistema operativo de su eleccion y hara boot en el mismo apenas la instalacion haya culminado.
 
-### How to create a custom OS version
+### Instrucciones para personalizar la version de su Sistema Operativo en Raspberry Pi
 
 There are two main use cases for which you may want to create a custom version of one of the standard OS releases that is suitable for installation via NOOBS:
 - If you are a teacher wanting to easily deploy a custom OS release containing pre-defined set of packages and files onto a number of SD cards (e.g. to provision a class set of Raspberry Pi's or quickly restore a Raspberry Pi back to custom "factory" settings).
