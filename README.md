@@ -105,7 +105,7 @@ Hay dos situaciones puntuales en las cuales podria sentirse impulsado a crear un
 - Puede que ud. sea un pedagogo que busca personalizar comodamente un sistema operativo el cual contenga un conjunto predefinido de paquetes y archivos en una cantidad determinada de tarjetas SD, por ejemplo, para entregar a un grupo de estudiantes sus correspondientes Raspberry Pi o quiza llevar rapidamente de vuelta a las configuraciones de fabrica un numero especifico de Raspberry Pi.
 - Existe la necesidad de respaldar sus paquetes previamente instalados asi como sus archivos antiguos para que cualquier Sistema Operativo que use en un futuro no le obligue a volver a instalar, configurar y copiar tanto el sistema operativo como sus datos personales.
 
-The following steps allow you to create a modified copy of one of the standard OS releases that contains your custom files, packages and settings.
+Si ud sigue los pasos enumerados a continuacion podra tener una copia modificada de los sistemas operativos estandar, dicha copia modificada contendra sus propios datos, paquetes y configuraciones.
 
 1. Download a base version of NOOBS from http://downloads.raspberrypi.org/NOOBS_latest
 
