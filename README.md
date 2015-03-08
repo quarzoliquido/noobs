@@ -107,11 +107,11 @@ Hay dos situaciones puntuales en las cuales podria sentirse impulsado a crear un
 
 Si ud sigue los pasos enumerados a continuacion podra tener una copia modificada de los sistemas operativos estandar, dicha copia modificada contendra sus propios datos, paquetes y configuraciones.
 
-1. Download a base version of NOOBS from http://downloads.raspberrypi.org/NOOBS_latest
+1. Necesita descargar una version "base" de NOOBS, la cual se encuentra disponible en http://downloads.raspberrypi.org/NOOBS_latest
 
-2. Extract the NOOBS zipfile
+2. Debera extraer el archivo NOOBS comprimido en formato Zip 
 
-3. Navigate to the `os` directory
+3. Debera entrar a la carpeta `os` 
 
 4. Create a copy of the folder containing the OS release that you want to modify and rename it with a custom name.
 
