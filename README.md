@@ -127,7 +127,7 @@ Si ud sigue los pasos enumerados a continuacion podra tener una copia modificada
   1. "partition_size_nominal" - Cambie la cifra por el tamano de las particiones en su propia version del Sistema Operativo
   2. "uncompressed_tarball_size" - Edite la cifra con el tamano al descomprimir de los archivos "Tarball" de su sistema de archivos 
 
-9. Replace the `.tar.xz` root and boot filesystem tarballs with copies created from your custom OS version (these instructions assume you're only using a single OS at a time with NOOBS - they won't work if you're running multiple OSes from a single SD card). The name of these tarballs needs to match the labels given in `partitions.json`.
+9. Hay dos archivos de tipo "Tarball" para el "root" y "boot", con extencion `.tar.xz`, cambielos por sus propias copias personalizadas con su Sistema Operativo personalizado. Estas instrucciones tienen detras de si el supuesto de que instalara solamente un Sistema Operativo con NOOBS, todo lo aconsejado sera inutil si ud desea ejecutar multiples Sistemas Operativos en una sola tarjeta SD. The name of these tarballs needs to match the labels given in `partitions.json`.
   1. To create the root tarball you will need to run `tar -cvpf <label>.tar /* --exclude=proc/* --exclude=sys/* --exclude=dev/pts/*` from within the root filesystem of your custom OS version. You should then compress the resulting tarball with `xz -9 -e <label>.tar`.
   2. To create the boot tarball you will need to run `tar -cvpf <label>.tar .` at the root directory of the boot partition of your custom OS version. You should then compress the resulting tarball with `xz -9 -e <label>.tar`.
 
