@@ -123,9 +123,9 @@ Si ud sigue los pasos enumerados a continuacion podra tener una copia modificada
 
 7. [Opcional] Es perfectamente posible tener sus propias diapositivas de instalacion, en ingles "installer slides" cambiando las imagenes en formato PNG dentro de los directorios `slides` y `slides_vga` 
 
-8. Cambie los siguientes campos Edit the following fields in the `partitions.json` file contained in the folder that you just created
-  1. "partition_size_nominal" - replace the numerical value with the size of the paritions in your custom OS version
-  2. "uncompressed_tarball_size" - replace the numerical value with the size of your filesystem tarballs when uncompressed
+8. Cambie los siguientes campos en el archivo `partitions.json` que se encuentra en la carpeta o directorio creado recientemente 
+  1. "partition_size_nominal" - Cambie la cifra por el tamano de las particiones en su propia version del Sistema Operativo
+  2. "uncompressed_tarball_size" - Edite la cifra con el tamano al descomprimir de los archivos "Tarball" de su sistema de archivos 
 
 9. Replace the `.tar.xz` root and boot filesystem tarballs with copies created from your custom OS version (these instructions assume you're only using a single OS at a time with NOOBS - they won't work if you're running multiple OSes from a single SD card). The name of these tarballs needs to match the labels given in `partitions.json`.
   1. To create the root tarball you will need to run `tar -cvpf <label>.tar /* --exclude=proc/* --exclude=sys/* --exclude=dev/pts/*` from within the root filesystem of your custom OS version. You should then compress the resulting tarball with `xz -9 -e <label>.tar`.
