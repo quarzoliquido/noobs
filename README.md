@@ -111,13 +111,13 @@ Si ud sigue los pasos enumerados a continuacion podra tener una copia modificada
 
 2. Debera extraer el archivo NOOBS comprimido en formato Zip 
 
-3. Debera entrar a la carpeta `os` 
+3. Ingrese a la carpeta `os` 
 
-4. Create a copy of the folder containing the OS release that you want to modify and rename it with a custom name.
+4. Tendra que hacer una copia de la arpeta con el Sistema Operativo que ud modificara y personalizara.
 
-5. Edit the following fields in the `os.json` file contained in the folder that you just created
-  1. "name" - replace the name of the base OS with the name of your custom OS version
-  2. "description" - replace the description of the standard OS install with one for your custom OS version
+5. Sera necesario editar los campos requeridos en el archivo `os.json` que existe en el interior de la carpeta que ud acaba de crear. 
+  1. "name" - Cambie este campo por el nombre del Sistema Operativo "base" por el nombre de su propia version
+  2. "description" - Modifique la descripcion del sistema opertivo estandar OS e instalado previamente por la descripcion de su propia version del Sistema Operativo
 
 6. [Optional] Rename or replace the existing `<OS>.png` icon file with one matching the name of your custom OS version
 
