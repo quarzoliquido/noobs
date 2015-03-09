@@ -75,7 +75,7 @@ Ud. podra entender los primeros pasos de la instalacion viendo las diapositivas 
 
 ![alt text](http://downloads.raspberrypi.org/NOOBS/screenshots/installer_slides.png "Ud. podra entender los primeros pasos de la instalacion viendo las diapositivas a continuacion.")
 
-#### OS Boot Selector
+#### Seleccion de Sistema Operativo en el Boot 
 
 Despues de que haya instalado varios sistemas operativos, puede elegir con cual hacer boot por medio de este menu. En NOOBS es posible mantener la seleccion de sistema operativo realizada por ud. automaticamente esperando hasta un maximo de 10 segundos.
 
@@ -119,11 +119,11 @@ Si ud sigue los pasos enumerados a continuacion podra tener una copia modificada
   1. "name" - Cambie este campo por el nombre del Sistema Operativo "base" por el nombre de su propia version
   2. "description" - Modifique la descripcion del sistema opertivo estandar OS e instalado previamente por la descripcion de su propia version del Sistema Operativo
 
-6. [Optional] Rename or replace the existing `<OS>.png` icon file with one matching the name of your custom OS version
+6. [Opcional] Puede cambiar de nombre o reemplazar el icono previamente existente llamado `<OS>.png` con el icono de su propia version del Sistema Operativo
 
-7. [Optional] Replace the PNG image files in the `slides` and `slides_vga` directory with your own custom installer slides
+7. [Opcional] Es perfectamente posible tener sus propias diapositivas de instalacion, en ingles "installer slides" cambiando las imagenes en formato PNG dentro de los directorios `slides` y `slides_vga` 
 
-8. Edit the following fields in the `partitions.json` file contained in the folder that you just created
+8. Cambie los siguientes campos Edit the following fields in the `partitions.json` file contained in the folder that you just created
   1. "partition_size_nominal" - replace the numerical value with the size of the paritions in your custom OS version
   2. "uncompressed_tarball_size" - replace the numerical value with the size of your filesystem tarballs when uncompressed
 
