@@ -131,13 +131,15 @@ Si ud sigue los pasos enumerados a continuacion podra tener una copia modificada
   1. Necesitara ingresa al sistema de archivos root de su propio Sistema Operativo personalizado. Tiene que hacer un "Tarball" del "Root" mediante la siguiente sintaxis en la linea de comandos: `tar -cvpf <label>.tar /* --exclude=proc/* --exclude=sys/* --exclude=dev/pts/*`. Posteriormente sera necesario comprimir el "Tarball" con la sintaxis que mostramos a continuacion `xz -9 -e <label>.tar`, en la misma interfaz de texto.
   2. Ingrese al directorio "Root" de la particion "Boot" de la version personalizada de su propio Sistema Operativo. Dentro de aquella carpeta o directorio, ejecute la siguiente sintaxis para crear un archivo "Tarball" para su "Root": `tar -cvpf <label>.tar .` Sera necesario comprimir el archivo "Tarball" con la sintaxis `xz -9 -e <label>.tar`.
 
-### How to change the default Language, Keyboard layout, Display mode or Boot Partition
+### Modifciacion del lenguaje por omision, disposicion del teclado, resolucion del monitor o particion de boot
 
-Edit the `recovery.cmdline` file in the root NOOBS directory and append the following arguments where relevant:
-- `lang=<two-letter language code>` (e.g. `lang=de` or `lang=en`)
-- `keyboard=<two-letter layout code>` (e.g. `keyboard=de` or `keyboard=us`)
-- `display=<display mode number>` (e.g. `display=1` or `display=3`)
-- `partition=<partition_number>` (e.g. `partition=5`)
+Sera necesario editar el siguiente archivo : 
+`recovery.cmdline` 
+El cual se encuentra ubicado en el directorio root de NOOBS. Debera agregar los siguientes argumentos donde sea requerido:
+- `lang=<two-letter language code>` (por ejemplo: `lang=de` or `lang=en`)
+- `keyboard=<two-letter layout code>` (por ejemplo: `keyboard=de` or `keyboard=us`)
+- `display=<display mode number>` (por ejemplo `display=1` or `display=3`)
+- `partition=<partition_number>` (por ejemplo `partition=5`)
 
 Note that these defaults will be overwritten by any changes made in the GUI to these settings.
 
