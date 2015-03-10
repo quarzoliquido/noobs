@@ -141,7 +141,7 @@ El cual se encuentra ubicado en el directorio root de NOOBS. Debera agregar los 
 - `display=<display mode number>` (por ejemplo `display=1` or `display=3`)
 - `partition=<partition_number>` (por ejemplo `partition=5`)
 
-Note that these defaults will be overwritten by any changes made in the GUI to these settings.
+Todas las configuraciones de fabrica son modificadas por cualquier cambio hecho desde la Interfaz Grafica de Usuario.
 
 ### How to bypass the Recovery splashscreen and boot directly into a fixed partition
 
