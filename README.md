@@ -143,13 +143,13 @@ El cual se encuentra ubicado en el directorio root de NOOBS. Debera agregar los 
 
 Todas las configuraciones de fabrica son modificadas por cualquier cambio hecho desde la Interfaz Grafica de Usuario.
 
-### How to bypass the Recovery splashscreen and boot directly into a fixed partition
+### Como pasar de la pantalla "Recovery splashscreen" para hacer boot en una particion puntual
 
-After you have installed your chosen OSes, add the following file to the root directory of NOOBS to force the indicated partition to be booted at power-on.
+Si desea lograr que una particion especifica arranque desde el proceso de boot en el inicio mismo, realice los siguientes pasos. Una vez instalados sus Sistemas Operativos, agregue el siguiente archivo dentro del directorio root de NOOBS.
 
-1. Add a text file named `autoboot.txt` to the root directory of NOOBS.
+1. Por favor, agregue un archivo de texto plano con el nombre de `autoboot.txt`, en el mismo directorio root de NOOBS.
 
-2. Add `boot_partition=<partition number>` to the file and save it to disk.
+2. En el archivo `autoboot.txt` edite con la variable `boot_partition=<partition number>`y almacene el texto con la variable mencionada.
 
 This will also prevent the splashscreen from being displayed at boot. The partition number can be found by running `sudo fdisk -l` the partition will be one of the FAT32 partitions `/dev/mmcblk0p5` would be partition 5. Note that once an `autoboot.txt` file is present, there's then no way to force the NOOBS GUI to display, until you delete (or rename) the `autoboot.txt` file.
 
