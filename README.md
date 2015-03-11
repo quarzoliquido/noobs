@@ -169,9 +169,9 @@ Es posible hacer boot en una consola busybox en vez de lanzar la interfaz grafic
 
 2. Entre los pins 5 & 6 debe insertar un jumper de cabecera GPIO P1. Si ud. tiene hardware externo o una placa conectada a la cabecera GPIO, puede que encuentre el pin 5 presionado y por ende, habilitando accidentalmente el "Modo a prueba de fallos". Para prevenir que esto ocurra agregue al archivo `recovery.cmdline` que se halla en el directorio root de NOOBS el argumento  `disablesafemode`.
 
-#### How to enable using the GPIO to trigger entering Recovery Mode
+#### Como habilitar el  "Recovery Mode" usando el GPIO 
 
-To force Recovery Mode to be entered on boot and to show the NOOBS interface, you normally press the `SHIFT` key during bootup. If you don't have a keyboard or the `SHIFT` keypress isn't being detected, you should complete the following steps to force the NOOBS interface to be displayed on boot:
+Normalmente solo se requiere de presionar la tecla `SHIFT` para entrar al "Recovery Mode" al entrar al boot y mostrar la interfaz NOOBS. Si carece de teclado o la tecla `SHIFT` no es detectada, sera necesario seguir los siguientes pasos de manera tal que aparezca en el boot la interfaz grafica NOOBS:
 
 1. Append `gpiotriggerenable` to the argument list in the `recovery.cmdline` file which is found in the root NOOBS directory.
 2. Reboot
