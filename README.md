@@ -173,8 +173,8 @@ Es posible hacer boot en una consola busybox en vez de lanzar la interfaz grafic
 
 Normalmente solo se requiere de presionar la tecla `SHIFT` para entrar al "Recovery Mode" al entrar al boot y mostrar la interfaz NOOBS. Si carece de teclado o la tecla `SHIFT` no es detectada, sera necesario seguir los siguientes pasos de manera tal que aparezca en el boot la interfaz grafica NOOBS:
 
-1. Append `gpiotriggerenable` to the argument list in the `recovery.cmdline` file which is found in the root NOOBS directory.
-2. Reboot
+1.Entre a la linea de comandos, situe el directorio root de NOOBS.  Elija el archivo `recovery.cmdline` y agregue  `gpiotriggerenable`.
+2. Haga Reboot
 
 To force Recovery Mode being entered on boot, connect GPIO pin 3 on header P1 to GND (pin 25). If GPIO pin 3 remains unconnected then it will boot through to the installed OS as normal.
 
