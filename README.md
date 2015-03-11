@@ -161,9 +161,9 @@ Con las acciones a seguir evitará que sea mostrada la splashscreen dentro del b
 
 Ud puede probar presionar SHIFT cuando aparezca la "splashscreen" de color gris en vez de presionarla durante el boot.
 
-#### How to boot into "Safe Mode"
+#### Como hacer boot en "Modo a prueba de fallos"
 
-To boot into a basic busybox shell rather than launching the NOOBS GUI, you can *either*:
+Es posible hacer boot en una consola busybox en vez de lanzar la interfaz grafica NOOBS GUI, siga los siguientes pasos:
 
 1. Append `rescueshell` to the argument list in the `recovery.cmdline` file which is found in the root NOOBS directory.
 
