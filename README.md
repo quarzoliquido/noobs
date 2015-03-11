@@ -155,11 +155,11 @@ Con las acciones a seguir evitará que sea mostrada la splashscreen dentro del b
 
 ===
 
-## Troubleshooting
+## Solucion de problemas
 
-#### What to do if your SHIFT keypress isn't detected
+#### Que hacer si no es detectada la tecla SHIFT 
 
-Try pressing shift only when the grey splashscreen is displayed rather than holding it from boot up.
+Ud puede probar presionar SHIFT cuando aparezca la "splashscreen" de color gris en vez de presionarla durante el boot.
 
 #### How to boot into "Safe Mode"
 
