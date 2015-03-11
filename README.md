@@ -176,7 +176,7 @@ Normalmente solo se requiere de presionar la tecla `SHIFT` para entrar al "Recov
 1.Entre a la linea de comandos, situe el directorio root de NOOBS.  Elija el archivo `recovery.cmdline` y agregue  `gpiotriggerenable`.
 2. Haga Reboot
 
-To force Recovery Mode being entered on boot, connect GPIO pin 3 on header P1 to GND (pin 25). If GPIO pin 3 remains unconnected then it will boot through to the installed OS as normal.
+Puede forzar el "Recovery Mode" cuando su Raspberry Pi esta en proceso de boot, tan solo conecte el pin 3 GPIO pin en la cabecera P1 a GND (pin 25). Si el Pin 3 GPIO pin se mantiene desconectado entonces el boot ocurrira hacia el Sistema Operativo instalado, de manera rutinaria.
 
 #### How to force Recovery Mode being entered on boot (overrides GPIO or keyboard input)
 
