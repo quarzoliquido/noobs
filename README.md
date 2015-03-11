@@ -151,7 +151,7 @@ Si desea lograr que una particion especifica arranque desde el proceso de boot e
 
 2. En el archivo `autoboot.txt` edite con la variable `boot_partition=<partition number>`y almacene el texto con la variable mencionada.
 
-This will also prevent the splashscreen from being displayed at boot. The partition number can be found by running `sudo fdisk -l` the partition will be one of the FAT32 partitions `/dev/mmcblk0p5` would be partition 5. Note that once an `autoboot.txt` file is present, there's then no way to force the NOOBS GUI to display, until you delete (or rename) the `autoboot.txt` file.
+Con las acciones a seguir evitará que sea mostrada la splashscreen dentro del boot. El numero de particion puede encontrarse al ejecutar la sintaxis `sudo fdisk -l`, dicha particion tiene que ser una de las particiones en formato FAT32, en el siguient ejemplo `/dev/mmcblk0p5` seria la particion 5. Note que una vez hallado un archivo `autoboot.txt`, no hay forma de mostrar la interfaz grafica de usuario propia de NOOBS, a no ser que ud mismo elimine o cambie de nombre al archivo `autoboot.txt`.
 
 ===
 
