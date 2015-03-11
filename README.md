@@ -178,7 +178,7 @@ Normalmente solo se requiere de presionar la tecla `SHIFT` para entrar al "Recov
 
 Puede forzar el "Recovery Mode" cuando su Raspberry Pi esta en proceso de boot, tan solo conecte el pin 3 GPIO pin en la cabecera P1 a GND (pin 25). Si el Pin 3 GPIO pin se mantiene desconectado entonces el boot ocurrira hacia el Sistema Operativo instalado, de manera rutinaria.
 
-#### How to force Recovery Mode being entered on boot (overrides GPIO or keyboard input)
+#### Como forzar el "Recovery Mode" en el boot (sobre escribe GPIO o la entrada por teclado)
 
 Alternatively, if you are unable to use either the GPIO or keyboard to trigger entering Recovery Mode, you can:
 
