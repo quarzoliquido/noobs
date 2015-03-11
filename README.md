@@ -167,7 +167,7 @@ Es posible hacer boot en una consola busybox en vez de lanzar la interfaz grafic
 
 1. Dentro del directorio o carpeta NOOBS ubique `recovery.cmdline`y agregue `rescueshell` a la lista de argumentos.
 
-2. Entre los pins 5 & 6 debe insertar un jumper de cabecera GPIO P1. If you have external hardware or an addon board connected to the GPIO header, you may find that pin 5 is being pulled low and accidentally triggering "Safe Mode". To prevent this you can append `disablesafemode` to the argument list in the `recovery.cmdline` file which is found in the root NOOBS directory.
+2. Entre los pins 5 & 6 debe insertar un jumper de cabecera GPIO P1. Si ud. tiene hardware externo o una placa conectada a la cabecera GPIO, puede que encuentre el pin 5 presionado y por ende, habilitando accidentalmente el "Modo a prueba de fallos". Para prevenir que esto ocurra agregue al archivo `recovery.cmdline` que se halla en el directorio root de NOOBS el argumento  `disablesafemode`.
 
 #### How to enable using the GPIO to trigger entering Recovery Mode
 
