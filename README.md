@@ -131,7 +131,7 @@ Si ud sigue los pasos enumerados a continuacion podra tener una copia modificada
   1. Necesitara ingresa al sistema de archivos root de su propio Sistema Operativo personalizado. Tiene que hacer un "Tarball" del "Root" mediante la siguiente sintaxis en la linea de comandos: `tar -cvpf <label>.tar /* --exclude=proc/* --exclude=sys/* --exclude=dev/pts/*`. Posteriormente sera necesario comprimir el "Tarball" con la sintaxis que mostramos a continuacion `xz -9 -e <label>.tar`, en la misma interfaz de texto.
   2. Ingrese al directorio "Root" de la particion "Boot" de la version personalizada de su propio Sistema Operativo. Dentro de aquella carpeta o directorio, ejecute la siguiente sintaxis para crear un archivo "Tarball" para su "Root": `tar -cvpf <label>.tar .` Sera necesario comprimir el archivo "Tarball" con la sintaxis `xz -9 -e <label>.tar`.
 
-### Modifciacion del lenguaje por omision, disposicion del teclado, resolucion del monitor o particion de boot
+### Modificacion del lenguaje por omision, disposicion del teclado, resolucion del monitor o particion de boot
 
 Sera necesario editar el siguiente archivo : 
 `recovery.cmdline` 
