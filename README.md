@@ -165,7 +165,7 @@ Ud puede probar presionar SHIFT cuando aparezca la "splashscreen" de color gris 
 
 Es posible hacer boot en una consola busybox en vez de lanzar la interfaz grafica NOOBS GUI, siga los siguientes pasos:
 
-1. Append `rescueshell` to the argument list in the `recovery.cmdline` file which is found in the root NOOBS directory.
+1. Dentro del directorio o carpeta NOOBS ubique `recovery.cmdline`y agregue `rescueshell` a la lista de argumentos.
 
 2. Insert a physical jumper between pins 5 & 6 of GPIO header P1. If you have external hardware or an addon board connected to the GPIO header, you may find that pin 5 is being pulled low and accidentally triggering "Safe Mode". To prevent this you can append `disablesafemode` to the argument list in the `recovery.cmdline` file which is found in the root NOOBS directory.
 
