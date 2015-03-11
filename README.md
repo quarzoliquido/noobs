@@ -163,11 +163,11 @@ Ud puede probar presionar SHIFT cuando aparezca la "splashscreen" de color gris 
 
 #### Como hacer boot en "Modo a prueba de fallos"
 
-Es posible hacer boot en una consola busybox en vez de lanzar la interfaz grafica NOOBS GUI, siga los siguientes pasos:
+Es posible hacer boot en una consola busybox en vez de lanzar la interfaz grafica NOOBS GUI, elija uno de ambas medidas:
 
 1. Dentro del directorio o carpeta NOOBS ubique `recovery.cmdline`y agregue `rescueshell` a la lista de argumentos.
 
-2. Insert a physical jumper between pins 5 & 6 of GPIO header P1. If you have external hardware or an addon board connected to the GPIO header, you may find that pin 5 is being pulled low and accidentally triggering "Safe Mode". To prevent this you can append `disablesafemode` to the argument list in the `recovery.cmdline` file which is found in the root NOOBS directory.
+2. Entre los pins 5 & 6 debe insertar un jumper de cabecera GPIO P1. If you have external hardware or an addon board connected to the GPIO header, you may find that pin 5 is being pulled low and accidentally triggering "Safe Mode". To prevent this you can append `disablesafemode` to the argument list in the `recovery.cmdline` file which is found in the root NOOBS directory.
 
 #### How to enable using the GPIO to trigger entering Recovery Mode
 
