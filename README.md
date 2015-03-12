@@ -29,7 +29,7 @@ Cabe destacar que todas las configuraciones de usuario (idioma, configuracion de
 
 ### Configuracion
 
-Para configurar mediante NOOBS una tarjeta SD en blanco card necesita realizar las siguientes acciones:
+Es  necesario realizar las siguientes acciones para configurar una tarjeta SD en blanco por medio de NOOBS:
 - Primero, tiene que dar formato a una tarjeta SD de capacidad igual o superior a 4GB en el sistema de ficheros FAT (vea las instrucciones para realizar esto abajo)
 - Segundo, tiene que descargar y extraer los archivos desde el archivo comprimido "zip" de NOOBS.
 - Tercero, tiene que copiar los archivos extraidos en la tarjeta SD que ud. acaba de formatear, por ende, esos archivos estaran disponibles en el directorio root de la tarjeta SD.
