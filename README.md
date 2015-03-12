@@ -5,7 +5,7 @@ NOOBS esta pensado para que el proceso de elegir un sistema operativo especifico
 
 La ultima version de NOOBS, de caracter oficial, esta disponible para su descarga en el siguiente enlace  http://downloads.raspberrypi.org/NOOBS_latest
 
-Si desea informacion de versiones anteriores y listas de modificaciones a las mismas, sirvase entrar al siguiente enlace https://github.com/raspberrypi/noobs/releases
+Si desea informacion de versiones anteriores y listas de modificaciones realizadas a las mismas, consulte el siguiente enlace https://github.com/raspberrypi/noobs/releases
 
 ![alt text](http://downloads.raspberrypi.org/NOOBS/screenshots/os_installed.png "Interface NOOBS")
 
