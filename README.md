@@ -10,9 +10,9 @@ Si desea informacion de versiones anteriores y listas de modificaciones realizad
 ![alt text](http://downloads.raspberrypi.org/NOOBS/screenshots/os_installed.png "Interface NOOBS")
 
 ### Acerca de NOOBS 
-NOOBS en el primet boot procedera a formatear su tarjeta SD, dejandole que elija cuales sistemas operativos instalara, en una lista con todas las opciones. Esta lista de sistemas operativos se genera automaticamente tanto de sistemas operativos disponibles localmente (i.e. los cuales esten dentro del directoro `/os` en su disco) como de aquellos disponibles desde nuestro repositorio remoto, lo cual exige una colección a internet cableada
+NOOBS en el primet boot procedera a formatear su tarjeta SD, dejandole que elija cuales Sistemas Operativos instalara de una lista con todas las opciones. Esta lista de Sistemas Operativos se genera automaticamente tanto de Sistemas Operativos que se hallan en su propia maquina (es decir, estan dentro del directorio `/os` en su disco) como de aquellos disponibles desde nuestro repositorio remoto, para lo cual es necesaria una conexión cableada a internet. 
 
-Para que ud. tenga la version mas reciente de su sistema operativo el menu solamente muestra las ultimas actualizaciones de cada sistema operativo.
+Para que ud. tenga la version mas reciente de su Sistema Operativo el menu solamente muestra las ultimas actualizaciones de cada Sistema Operativo.
 
 Para los siguientes boot es posible reemplazar facilmente su sistema operativo presionando la tecla SHIFT, la cual muestra la interfaz NOOBS y permite reinstalar comodamente su proximo sistema operativo.
 
