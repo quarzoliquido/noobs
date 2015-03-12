@@ -23,7 +23,7 @@ La interfaz NOOBS entrega los siguientes servicios:
 - <b>Exit</b>: Esta es la salida de NOOBS y deja su Raspberry Pi en el menu boot.
 - <b>Language Selection</b>: Desde esta opcion es posible cambiar el lenguaje en el se muestra NOOBS.
 - <b>Keyboard Layout Selection</b>: Aca puede elegir la configuracion del teclado.
-- <b>Display Mode Selection</b>: NOOBS tiene por omision salida al puerto de video HDMI en la resolucion que presente su monitor, incluso si no hay una pantalla HDMI conectada. Si ud no ve ningun tipo de salida en la visualizacion de su monitor HDMI o si utiliza la salida de video compuesta, presione en su teclado segun corresponda las teclas 1, 2, 3 o 4 para elegir entre modo preferencial HDMI , modo seguro HDMI, salida de video compuesta PAL o salida de video compuesta NTSC.
+- <b>Display Mode Selection</b>: NOOBS tiene por omision salida al puerto de video HDMI en la resolucion que presente su monitor, incluso si no hay una pantalla HDMI conectada. Si ud no ve ningun tipo de salida en la visualizacion de su monitor HDMI o si utiliza la salida de video compuesta, presione en su teclado segun corresponda las teclas 1, 2, 3 o 4 para elegir entre modo preferido HDMI , modo seguro HDMI, salida de video compuesta PAL o salida de video compuesta NTSC.
 
 Por favor, note que todas las configuraciones de usuario (language, keyboard layout, display mode) seran mantenidas entre un boot y otro e igualmente seran llevadas a los sistemas operativos existentes. Esto implica que si ud puede ver la interfaz NOOBS en su monitor, entonces podra igualmente ver la linea de comandos o la interfaz grafica de usuario de su sistema operativo. 
 
