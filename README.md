@@ -25,7 +25,7 @@ La interfaz NOOBS entrega los siguientes servicios:
 - <b>Keyboard Layout Selection</b>: Aca puede elegir la configuracion del teclado.
 - <b>Display Mode Selection</b>: NOOBS tiene por omision salida al puerto de video HDMI en la resolucion que presente su monitor, incluso si no hay una pantalla HDMI conectada. Si ud no ve ningun tipo de salida en la visualizacion de su monitor HDMI o si utiliza la salida de video compuesta, presione en su teclado segun corresponda las teclas 1, 2, 3 o 4 para elegir entre modo preferido HDMI , modo seguro HDMI, salida de video compuesta PAL o salida de video compuesta NTSC.
 
-Por favor, note que todas las configuraciones de usuario (idioma, configuracion de teclado, resolucion del monitor) seran mantenidas entre un boot y otro e igualmente seran llevadas a los Sistemas Operativos existentes. Esto implica que si ud puede ver la interfaz NOOBS en su monitor, entonces podra igualmente ver la linea de comandos o la interfaz grafica de usuario de su Sistema Operativo. 
+Cabe destacar que todas las configuraciones de usuario (idioma, configuracion de teclado, resolucion del monitor) se mantendran entre un boot y otro, e igualmente seran traspasadas a los Sistemas Operativos instalados. Esto implica que si ud puede ver la interfaz NOOBS en su monitor, entonces podra igualmente ver la linea de comandos o la interfaz grafica de usuario de su Sistema Operativo. 
 
 ### Configuracion
 
