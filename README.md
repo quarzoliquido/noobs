@@ -30,12 +30,12 @@ Cabe destacar que todas las configuraciones de usuario (idioma, configuracion de
 ### Configuracion
 
 Es  necesario realizar las siguientes acciones para configurar una tarjeta SD en blanco por medio de NOOBS:
-- Primero, tiene que dar formato a una tarjeta SD de capacidad igual o superior a 4GB en el sistema de ficheros FAT (vea las instrucciones para realizar esto abajo)
+- Primero, tiene que dar formato a una tarjeta SD de capacidad igual o superior a 4GB en el sistema de ficheros FAT (vea las instrucciones a continuacion)
 - Segundo, tiene que descargar y extraer los archivos desde el archivo comprimido "zip" de NOOBS.
-- Tercero, tiene que copiar los archivos extraidos en la tarjeta SD que ud. acaba de formatear, por ende, esos archivos estaran disponibles en el directorio root de la tarjeta SD.
-<b> En algunos casos es posible extraer los archivos en una carpeta, si este es el caso por favor haga una copia entre los archivos habiendo entrado previamente dentro de la carpeta en vez de copiar la carpeta en si.</b>
+- Tercero, tiene que copiar los archivos extraidos en la tarjeta SD que ud. acaba de formatear, por consiguiente, esos archivos podran encontrarse en el directorio root de la tarjeta SD.
+<b> En algunos casos es posible extraer los archivos en una carpeta, si este es el caso, por favor haga una copia entre los archivos habiendo ingresado previamente en la carpeta en vez de copiar la carpeta en si.</b>
 
-Al hacer boot por primera vez la particion con el sistema de ficheros FAT de tipo "RECOVERY" sera cambiada al menor tamano posible y el menu mostrara una lista de sistemas operativos par instalar.
+Al hacer boot por primera vez, la particion con el sistema de ficheros FAT de tipo "RECOVERY" sera modificada para utilizar el menor espacio posible y en el menu se muestra una lista de Sistemas Operativos para su posterior instalacion.
 
 ### Como darle formato con sistema de ficheros FAT a una tarjeta SD
 
