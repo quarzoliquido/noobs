@@ -3,7 +3,7 @@
 
 NOOBS esta pensado para que el proceso de elegir un sistema operativo especifico para Raspberry Pi e instalarlo sea facil y sin necesidad de gestionar a mano las imagenes de la memoria SD.
 
-La ultima version de NOOBS, de caracter oficial, esta disponible para su descarga desde  http://downloads.raspberrypi.org/NOOBS_latest
+La ultima version de NOOBS, de caracter oficial, esta disponible para su descarga en el siguiente enlace  http://downloads.raspberrypi.org/NOOBS_latest
 
 Si desea informacion de versiones anteriores y listas de modificaciones a las mismas, sirvase entrar al siguiente enlace https://github.com/raspberrypi/noobs/releases
 
