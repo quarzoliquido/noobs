@@ -1,5 +1,5 @@
 # NOOBS (New Out of Box Software)
-#### Un instalador de sistemas operativos para Raspberry Pi facil de usar
+#### Instalador de sistemas operativos facil de usar para Raspberry Pi 
 
 NOOBS esta pensado para que el proceso de elegir un sistema operativo especifico para Raspberry Pi e instalarlo sea facil y sin gestionar a mano las imagenes de la memoria SD.
 
