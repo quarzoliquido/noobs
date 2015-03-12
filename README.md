@@ -37,9 +37,9 @@ Es  necesario realizar las siguientes acciones para configurar una tarjeta SD en
 
 Al hacer boot por primera vez, la particion con el sistema de ficheros FAT de tipo "RECOVERY" sera modificada para utilizar el menor espacio posible y en el menu se muestra una lista de Sistemas Operativos para su posterior instalacion.
 
-### Como darle formato con sistema de ficheros FAT a una tarjeta SD
+### Como darle formato a una tarjeta SD con sistema de ficheros FAT 
 
-Nosotros recomendamos a los usuarios de <b>Windows</b> formatear su tarjeta SD usando la SD Association's Formatting Tool, la cual esta lista para ser descargada en https://www.sdcard.org/downloads/formatter_4/ ud. necesitara configurar la opcion "FORMAT SIZE ADJUSTMENT" en "ON" dentro del menu "Options" para asegurar que se de formateo a la  tarjeta SD completa, en vez de una particion individual. Si desea mayor informacion e instrucciones para principiantes, abra la siguiente pagina http://www.raspberrypi.org/quick-start-guide
+Recomendamos a los usuarios de <b>Windows</b> formatear su tarjeta SD usando la SD Association's Formatting Tool, la cual puede ser descargada en el siguiente enlace: https://www.sdcard.org/downloads/formatter_4/  Ud. necesitara configurar la opcion "FORMAT SIZE ADJUSTMENT"(Ajuste de tamano de formato) en "ON"(Activado) dentro del menu "Options"(Opciones) para asegurarse de que se formateo la  tarjeta SD completa, en lugar de llevar a cabo una particion individual. Si desea mayor informacion e instrucciones para principiantes, abra la siguiente pagina: http://www.raspberrypi.org/quick-start-guide
 
 La herramienta "SD Association's Formatting Tool" tambien se encuentra disponible para los usuarios <b>Mac</b> ,si bien, la herramienta por omision llamada "OSX Disk Utility" tambien permite formatear el disco por completo, para lo cual solo requiere de elegir el volumen de la tarjeta SD card y seleccionar "Erase" con formato "MS-DOS").
 
