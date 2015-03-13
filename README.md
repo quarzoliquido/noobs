@@ -187,7 +187,7 @@ Para entrar al "Recovery Mode" ud. puede usar tanto el GPIO como el teclado, ser
 
 Note que al habilitar esta opción tendra el "Recovery Mode" <b>cada vez</b> que haga boot desde su tarjeta SD con NOOBS, hasta que edite nuevamente el archivo `recovery.cmdline`.
 
-#### How to disable using the keyboard to trigger entering Recovery Mode
+#### Como deshabilitar la entrada al "Recovery Mode" mediante teclado
 
 In some rare cases, you may find that NOOBS incorrectly detects a `SHIFT` keypress from your keyboard regardless of the presence of user input. In such cases it may be helpful to disable using the keyboard to trigger Recovery Mode being entered.
 
