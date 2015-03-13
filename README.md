@@ -189,9 +189,9 @@ Note que al habilitar esta opción tendra el "Recovery Mode" <b>cada vez</b> que
 
 #### Como deshabilitar la entrada al "Recovery Mode" mediante teclado
 
-In some rare cases, you may find that NOOBS incorrectly detects a `SHIFT` keypress from your keyboard regardless of the presence of user input. In such cases it may be helpful to disable using the keyboard to trigger Recovery Mode being entered.
+En algunos casos puntuales sera imposible la deteccion de la tecla `SHIFT` desde NOOBS. En tales circunstancias podria ser de ayuda deshabilitar el teclado para la entrada al "Recovery Mode"
 
-To prevent a `SHIFT` keypress from entering Recovery Mode on boot (maybe you have a problematic keyboard which is erroneously triggering every time you boot), you can:
+Podria ser que ud. tenga un teclado que arroje errores cada vez que haga Boot. Para evitar la entrada al "Recovery Mode" despues de presionar la tecla `SHIFT`, haga lo siguiente :
 
 1. Append `keyboardtriggerdisable` to the argument list in the `recovery.cmdline` file which is found in the root NOOBS directory.
 2. Reboot
