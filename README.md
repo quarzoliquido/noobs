@@ -193,29 +193,29 @@ En algunos casos puntuales sera imposible la deteccion de la tecla `SHIFT` desde
 
 Podria ser que ud. tenga un teclado que arroje errores cada vez que haga Boot. Para evitar la entrada al "Recovery Mode" despues de presionar la tecla `SHIFT`, haga lo siguiente :
 
-1. Append `keyboardtriggerdisable` to the argument list in the `recovery.cmdline` file which is found in the root NOOBS directory.
-2. Reboot
+1. Diríjase al directorio root de NOOBS. Edite el archivo de texto plano denominado `recovery.cmdline` y agregue  `keyboardtriggerdisable` a la lista de argumentos.
+2. Haga Reboot
 
-#### How to change display output modes
+#### Como puede cambiar de una resolucion a otra
 
-By default, NOOBS will output over HDMI at your display’s preferred resolution, even if no HDMI display is connected. If you do not see any output on your HDMI display or are using the composite output, press 1, 2, 3 or 4 on your keyboard to select HDMI preferred mode, HDMI safe mode, composite PAL mode or composite NTSC mode respectively.
+La interfaz NOOBS muestra una salida de video HDMI  por omision a la resolucion preferida de su monitor, incluso si no existe un monitor HDMI conectado. Si no puede ver ninguna imagen en su monitor HDMI o esta usando la salida de video compuesta, elija entre modo preferido HDMI, modo seguro HDMI, salida de video compuesta pal o NTSC presionando las teclas 1,2,3 o 4 segun corresponda.
 
-If you don't have a keyboard, you can still change the display mode used by NOOBS through editing the `recovery.cmdline` file in the root NOOBS directory prior to first boot and appending the following argument:
+Si ud. no tiene un teclado, puede cambiar la resolucion usada por NOOBS al editar el archivo de texto `recovery.cmdline` en el momento previo al boot. Dicho archivo de texto plano se encuentra ubicado en el directorio root de NOOBS, debera adjuntar los siguientes argumentos:
 - `display=<display mode number>` (e.g. `display=1` or `display=3`)
 
 ===
 
-## How to Rebuild NOOBS
+## Como compilar NOOBS
 
-Note that this will require a minimum of 6GB free disk space.
+Tenga presente que la compilacion de NOOBS exige un minimo de 6GB libres de disco duro.
 
-#### Get Build Dependencies
+#### Consiga las dependencias
 
-On Ubuntu:
+En Ubuntu, ingrese a la linea de comandos y use la siguiente sintaxis:
 
 `sudo apt-get install build-essential rsync texinfo libncurses-dev whois unzip`
 
-#### Run Build Script
+#### Ejecute el Build Script
 
 `./BUILDME.sh`
 
